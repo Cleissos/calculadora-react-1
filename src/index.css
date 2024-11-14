@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+
+}
+
+.container {
+  background: url("https://picsum.photos/1600/900");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .calculadora {
+  width: 300px;
+  padding: 20px;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 20px;
+}
+
+.container .calculadora h1 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.container .calculadora p {
+  text-align: center;
+  width: 215px;
+  height: 50px;
+  background-color: #ffffff;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 5px;
+  font-size: 30px;
+}
+
+table {
+  margin-left: 15px;
+}
+
+.container .calculadora button {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  margin: 2px;
+  border-radius: 10px;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  
+}
+
+.container .calculadora button:hover {
+  background-color: rgba(255, 255, 255, .2);
+  color: #ffffff;
+}
